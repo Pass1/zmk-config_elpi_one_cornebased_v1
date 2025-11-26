@@ -1,0 +1,6 @@
+# No whitespace after the comma or in your keyboard name!
+config SHIELD_ELPI_ONE_LEFT
+    def_bool $(shields_list_contains,elpi_one_left)
+
+config SHIELD_ELPI_ONE_RIGHT
+    def_bool $(shields_list_contains,elpi_one_right)

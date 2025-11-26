@@ -1,0 +1,17 @@
+if SHIELD_ELPI_ONE_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Elpi One"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_ELPI_ONE_LEFT || SHIELD_ELPI_ONE_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
