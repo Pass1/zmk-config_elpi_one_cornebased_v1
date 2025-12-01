@@ -14,7 +14,7 @@
 
         default_layer {
             label = "Mac";
-            // -----------------------------------------------------------------------h
+            // -----------------------------------------------------------------------  
             // | ` | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | BKSP |
             // | TAB | Q | W | F | P | B | J | L | U | Y | ; | \ |
             // | ESC | A | R | S | T | G | H | N | E | I | O | ENT |y
@@ -23,11 +23,11 @@
             // -----------------------------------------------------------------------
 
         bindings = < 
-                &trans     &kp GRAVE  &kp N1   &kp N2   &kp N3    &kp N4    &kp N5          &kp BSPC  &kp N0     &kp N9     &kp N8    &kp N7     &kp N6     &trans
-                &kp TAB    &kp Q      &kp W    &kp E    &kp R     &kp T     &tog 1          &trans    &kp BSLH   &kp O      &kp I     &kp U      &kp Y      &bootloader
-                &trans     &kp A      &kp S    &kp D    &kp F     &kp G     &trans          &kp RET   &kp P      &kp L      &kp K     &kp J      &kp H      &trans
-                &kp LSHFT  &kp Z      &kp X    &kp C    &kp V     &kp B     &trans          &trans    &kp APOS   &kp FSLH   &kp DOT   &kp COMMA  &kp N      &trans
-                &trans     &kp LCTRL  &kp LALT &kp LGUI &kp SPACE &kp SPACE &kp SPACE       &trans    &kp RARW   &kp UARW   &kp END   &kp M      &trans     &trans
+                &trans     &kp GRAVE  &kp W    &kp E    &kp N3    &kp N4    &kp N5          &kp BSPC  &kp N0     &kp O      &kp I     &kp N7     &kp N6     &trans
+                &kp TAB    &kp trans  &kp S    &kp D    &kp R     &kp T     &tog 1          &trans    &kp BSLH   &kp L      &kp K     &kp U      &kp Y      &bootloader
+                &trans     &kp Q      &kp X    &kp C    &kp F     &kp G     &trans          &kp RET   &trans      &kp trans  &trans    &kp J      &kp H     &bootloader
+                &kp LSHFT  &kp A      &trans   &trans   &kp V     &kp B     &trans          &trans    &kp P      &kp FSLH   &kp DOT   &kp M      &kp N      &trans
+                &trans     &kp Z      &kp LALT &kp LGUI &kp SPACE &kp SPACE &kp SPACE       &trans    &kp RARW   &kp UARW   &kp END   &kp M      &trans     &trans
                 &trans     &kp LCTRL  &kp LALT &mo 2    &kp BSPC  &kp RET   &kp SPACE       &trans    &trans     &kp SPACE  &kp RGUI  &kp SPACE  &mo 2      &trans
             >;
 
