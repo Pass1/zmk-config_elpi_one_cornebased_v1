@@ -26,9 +26,9 @@
                 &trans     &kp GRAVE  &kp N1   &kp N2   &kp N3    &kp N4    &kp N5          &trans    &kp BSPC   &kp N0     &kp N9         &kp N8     &kp N7     &kp N6
                 &kp TAB    &kp Q      &kp W    &kp E    &kp R     &kp T     &tog 1          &trans    &kp BSLH   &kp O      &kp I          &kp U      &kp Y      &bootloader
                 &trans     &kp A      &kp S    &kp D    &kp F     &kp G     &trans          &trans    &kp RET    &kp P      &kp L          &kp K      &kp J      &kp H
-                &LSHFT     &kp Z      &kp X    &kp C    &kp V     &kp B     &trans          &trans    &kp APOS   &kp FSLH   &kp DOT        &kp COMMA  &kp M      &kp N
+                &kp LSHFT  &kp Z      &kp X    &kp C    &kp V     &kp B     &trans          &trans    &kp APOS   &kp FSLH   &kp DOT        &kp COMMA  &kp M      &kp N
                 &trans     &kp LCTRL  &kp LALT &kp LGUI &kp SPACE &kp SPACE &kp SPACE       &trans    &kp RARW   &kp UARW   &kp END        &kp HOME   &mo 2      &trans
-                &trans     &kp LCTRL  &kp LALT &mo 2    &kp SPACE &kp RET   &kp SPACE       &trans    &trans     &kp SPACE  &kp RIGHT_GUI  &kp SPACE  &RET       &trans
+                &trans     &kp LCTRL  &kp LALT &mo 2    &kp SPACE &kp RET   &kp SPACE       &trans    &trans     &kp SPACE  &kp RIGHT_GUI  &kp SPACE  &kp RET       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
